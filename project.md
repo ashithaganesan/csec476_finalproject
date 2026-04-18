@@ -96,7 +96,15 @@ In summary, the sample represents a sophisticated, multi-stage intrusion tool: a
 This section examines the malware's properties without executing it, beginning with metadata and file identification before progressing through signature scanning, string extraction, entropy analysis, and section inspection to build a structural understanding of the sample.
 
 ### Metadata
-
+<table>
+  <tr><td><b>Filename</b></td><td><b>Group4.pdf</b></td></tr>
+  <tr><td>Description</td><td>PDF document, version 1.7</td></tr>
+  <hr>
+  <tr><td>Size</td><td>295.2 KiB</td></tr>
+  <hr>
+  <tr><td>MD5</td><td>1e0e8268...</td></tr>
+  
+</table>
 | **Filename** | Group4.pdf |
 | --- | --- |
 | **Description** | PDF document, version 1.7, 0 page(s) |
