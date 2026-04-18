@@ -24,63 +24,6 @@
 </div>
 <br><br><br>
 
-<h1> Table of Contents </h1>
-<table style="width: 100%; border-collapse: collapse; font-family: sans-serif; table-layout: fixed;">
-  <thead>
-    <tr style="background-color: #161b22; border-bottom: 2px solid #30363d;">
-      <th align="center" style="padding: 12px; width: 30%;">Main Section</th>
-      <th align="left" style="padding: 12px; width: 70%;">Report Navigation</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td align="center" style="border-bottom: 1px solid #30363d; background-color: #0d1117;">
-        <a href="#technical-summary" style="text-decoration: none; color: #58a6ff; font-weight: bold;">TECHNICAL SUMMARY</a>
-      </td>
-      <td style="border-bottom: 1px solid #30363d; color: #c9d1d9; padding: 10px;">Executive Overview</td>
-    </tr>
-    <tr>
-      <td rowspan="15" align="center" style="border-bottom: 1px solid #30363d; background-color: #0d1117;">
-        <a href="#static-analysis" style="text-decoration: none; color: #58a6ff; font-weight: bold;">STATIC ANALYSIS</a>
-      </td>
-      <td style="padding: 8px 12px;"><a href="#metadata" style="text-decoration: none; color: #c9d1d9;">• Metadata</a></td>
-    </tr>
-    <tr><td style="padding: 4px 12px;"><a href="#basic-static-analysis" style="text-decoration: none; color: #c9d1d9;">• Basic Static Analysis</a></td></tr>
-    <tr><td style="padding: 4px 30px;"><a href="#pdf" style="text-decoration: none; color: #8b949e;">&nbsp;&nbsp;&nbsp;↳ PDF</a></td></tr>
-    <tr><td style="padding: 4px 30px;"><a href="#executable" style="text-decoration: none; color: #8b949e;">&nbsp;&nbsp;&nbsp;↳ Executable</a></td></tr>
-    <tr><td style="padding: 2px 50px;"><a href="#1-identifying-file-type" style="text-decoration: none; color: #7d8590;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;◦ 1. Identifying File Type</a></td></tr>
-    <tr><td style="padding: 2px 50px;"><a href="#2-local-anti-malware-scanning" style="text-decoration: none; color: #7d8590;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;◦ 2. Local Anti-malware Scanning</a></td></tr>
-    <tr><td style="padding: 2px 50px;"><a href="#3-fingerprinting" style="text-decoration: none; color: #7d8590;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;◦ 3. Fingerprinting</a></td></tr>
-    <tr><td style="padding: 2px 50px;"><a href="#4-online-malware-scanning" style="text-decoration: none; color: #7d8590;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;◦ 4. Online Malware Scanning</a></td></tr>
-    <tr><td style="padding: 2px 50px;"><a href="#5-extracting-strings" style="text-decoration: none; color: #7d8590;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;◦ 5. Extracting Strings</a></td></tr>
-    <tr><td style="padding: 2px 50px;"><a href="#6-packing" style="text-decoration: none; color: #7d8590;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;◦ 6. Packing</a></td></tr>
-    <tr><td style="padding: 2px 50px;"><a href="#7-extracting-sections" style="text-decoration: none; color: #7d8590;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;◦ 7. Extracting Sections</a></td></tr>
-    <tr><td style="padding: 2px 50px;"><a href="#8-extracting-dlls" style="text-decoration: none; color: #7d8590;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;◦ 8. Extracting DLLs</a></td></tr>
-    <tr><td style="padding: 2px 50px;"><a href="#9-additional-information" style="text-decoration: none; color: #7d8590;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;◦ 9. Additional Information</a></td></tr>
-    <tr><td style="border-top: 1px solid #30363d; padding: 8px 12px;"><a href="#advanced-static-analysis" style="text-decoration: none; color: #c9d1d9;">• Advanced Static Analysis</a></td></tr>
-    <tr>
-      <td rowspan="9" align="center" style="border-bottom: 1px solid #30363d; background-color: #0d1117;">
-        <a href="#dynamic-analysis" style="text-decoration: none; color: #58a6ff; font-weight: bold;">DYNAMIC ANALYSIS</a>
-      </td>
-      <td style="padding: 8px 12px;"><a href="#basic-dynamic-analysis" style="text-decoration: none; color: #c9d1d9;">• Basic Dynamic Analysis</a></td>
-    </tr>
-    <tr><td style="padding: 4px 30px;"><a href="#process-explorer" style="text-decoration: none; color: #8b949e;">&nbsp;&nbsp;&nbsp;↳ Process Explorer</a></td></tr>
-    <tr><td style="padding: 4px 30px;"><a href="#procmon" style="text-decoration: none; color: #8b949e;">&nbsp;&nbsp;&nbsp;↳ Procmon</a></td></tr>
-    <tr><td style="padding: 4px 30px;"><a href="#fakenet-ng-process-explorer-and-tcpview" style="text-decoration: none; color: #8b949e;">&nbsp;&nbsp;&nbsp;↳ FakeNet-NG, Process Explorer & TCPView</a></td></tr>
-    <tr><td style="padding: 4px 30px;"><a href="#regshot" style="text-decoration: none; color: #8b949e;">&nbsp;&nbsp;&nbsp;↳ Regshot</a></td></tr>
-    <tr><td style="padding: 4px 30px;"><a href="#wireshark" style="text-decoration: none; color: #8b949e;">&nbsp;&nbsp;&nbsp;↳ Wireshark</a></td></tr>
-    <tr><td style="padding: 4px 30px;"><a href="#process-hacker" style="text-decoration: none; color: #8b949e;">&nbsp;&nbsp;&nbsp;↳ Process Hacker</a></td></tr>
-    <tr><td style="border-top: 1px solid #30363d; padding: 8px 12px;"><a href="#advanced-dynamic-analysis" style="text-decoration: none; color: #c9d1d9;">• Advanced Dynamic Analysis</a></td></tr>
-    <tr>
-      <td align="center" style="border-bottom: 1px solid #30363d; background-color: #0d1117;">
-        <a href="#conclusion" style="text-decoration: none; color: #58a6ff; font-weight: bold;">CONCLUSION</a>
-      </td>
-      <td style="border-bottom: 1px solid #30363d; color: #c9d1d9; padding: 10px;">Final Verdict</td>
-    </tr>
-  </tbody>
-</table>
-<br><br>
-
 # Technical Summary
 
 The analyzed sample consists of a two-stage delivery mechanism: a weaponized PDF (Group4.pdf) concealing a 64-bit Windows PE32+ executable (Group4.exe) compressed within its internal object structure using FlateDecode. This delivery technique is designed to exploit user trust in document-based file formats while evading signature-based detection. Both local scanners (ClamAV, maldet) and the embedded PDF itself returned clean results, yet VirusTotal flagged the extracted binary with 43/72 detections, and Hybrid Analysis assigned it a maximum threat score of 100/100.
