@@ -23,42 +23,47 @@
   <strong>Sufian Ehab Al-Hattab:</strong> 377004971
 </div>
 
-<table style="width: 100%;">
+<table style="width: 100%; border-collapse: collapse; font-family: sans-serif;">
   <thead>
-    <tr>
-      <th align="left">Section</th>
-      <th align="left">Sub-Section</th>
+    <tr style="background-color: #161b22; border-bottom: 2px solid #30363d;">
+      <th align="center" style="padding: 12px;">Main Section</th>
+      <th align="left" style="padding: 12px;">Report Navigation</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><a href="#technical-summary"><b>Technical Summary</b></a></td>
-      <td>—</td>
+      <td align="center" style="border-bottom: 1px solid #30363d; background-color: #0d1117;">
+        <a href="#technical-summary" style="text-decoration: none; color: #58a6ff; font-weight: bold;">TECHNICAL SUMMARY</a>
+      </td>
+      <td style="border-bottom: 1px solid #30363d; color: #8b949e; padding: 10px;">Executive Overview</td>
     </tr>
     <tr>
-      <td rowspan="9"><a href="#static-analysis"><b>Static Analysis</b></a></td>
-      <td><a href="#metadata">Metadata</a></td>
+      <td rowspan="9" align="center" style="border-bottom: 1px solid #30363d; background-color: #0d1117;">
+        <a href="#static-analysis" style="text-decoration: none; color: #58a6ff; font-weight: bold;">STATIC ANALYSIS</a>
+      </td>
+      <td style="padding: 8px 12px;"><a href="#metadata" style="text-decoration: none; color: #c9d1d9;">• Metadata</a></td>
     </tr>
-    <tr><td><a href="#basic-static-analysis">Basic Static Analysis</a></td></tr>
-    <tr><td>&nbsp;&nbsp;↳ <a href="#pdf">PDF</a></td></tr>
-    <tr><td>&nbsp;&nbsp;↳ <a href="#executable">Executable</a></td></tr>
-    <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• <a href="#identifying-file-type">Identifying File Type</a></td></tr>
-    <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• <a href="#local-anti-malware-scanning">Local Anti-malware Scanning</a></td></tr>
-    <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• <a href="#fingerprinting">Fingerprinting</a></td></tr>
-    <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• <a href="#extracting-strings">Extracting Strings</a></td></tr>
-    <tr><td><a href="#advanced-static-analysis">Advanced Static Analysis</a></td></tr>
+    <tr><td style="padding: 4px 12px;"><a href="#basic-static-analysis" style="text-decoration: none; color: #c9d1d9;">• Basic Static Analysis</a></td></tr>
+    <tr><td style="padding: 4px 30px;"><a href="#pdf" style="text-decoration: none; color: #8b949e;">↳ PDF Analysis</a></td></tr>
+    <tr><td style="padding: 4px 30px;"><a href="#executable" style="text-decoration: none; color: #8b949e;">↳ Executable Analysis</a></td></tr>
+    <tr><td style="padding: 4px 50px;"><a href="#1-identifying-file-type" style="text-decoration: none; color: #7d8590;">◦ Identifying File Type</a></td></tr>
+    <tr><td style="padding: 4px 50px;"><a href="#2-local-anti-malware-scanning" style="text-decoration: none; color: #7d8590;">◦ Anti-malware Scanning</a></td></tr>
+    <tr><td style="padding: 4px 50px;"><a href="#3-fingerprinting" style="text-decoration: none; color: #7d8590;">◦ Fingerprinting</a></td></tr>
+    <tr><td style="padding: 4px 50px;"><a href="#5-extracting-strings" style="text-decoration: none; color: #7d8590;">◦ Extracting Strings</a></td></tr>
+    <tr><td style="border-bottom: 1px solid #30363d; padding: 8px 12px;"><a href="#advanced-static-analysis" style="text-decoration: none; color: #c9d1d9;">• Advanced Static Analysis</a></td></tr>
     <tr>
-      <td rowspan="7"><a href="#dynamic-analysis"><b>Dynamic Analysis</b></a></td>
-      <td><a href="#basic-dynamic-analysis">Basic Dynamic Analysis</a></td>
+      <td rowspan="7" align="center" style="border-bottom: 1px solid #30363d; background-color: #0d1117;">
+        <a href="#dynamic-analysis" style="text-decoration: none; color: #58a6ff; font-weight: bold;">DYNAMIC ANALYSIS</a>
+      </td>
+      <td style="padding: 8px 12px;"><a href="#basic-dynamic-analysis" style="text-decoration: none; color: #c9d1d9;">• Basic Dynamic Analysis</a></td>
     </tr>
-    <tr><td>&nbsp;&nbsp;↳ <a href="#process-explorer">Process Explorer</a></td></tr>
-    <tr><td>&nbsp;&nbsp;↳ <a href="#procmon">Procmon</a></td></tr>
-    <tr><td>&nbsp;&nbsp;↳ <a href="#wireshark">Wireshark</a></td></tr>
-    <tr><td>&nbsp;&nbsp;↳ <a href="#regshot">Regshot</a></td></tr>
-    <tr><td><a href="#advanced-dynamic-analysis">Advanced Dynamic Analysis</a></td></tr>
+    <tr><td style="padding: 4px 30px;"><a href="#process-explorer" style="text-decoration: none; color: #8b949e;">↳ Process Explorer</a></td></tr>
+    <tr><td style="padding: 4px 30px;"><a href="#procmon" style="text-decoration: none; color: #8b949e;">↳ Procmon Logs</a></td></tr>
+    <tr><td style="padding: 4px 30px;"><a href="#wireshark" style="text-decoration: none; color: #8b949e;">↳ Wireshark Traffic</a></td></tr>
+    <tr><td style="padding: 4px 30px;"><a href="#regshot" style="text-decoration: none; color: #8b949e;">↳ Regshot Comparison</a></td></tr>
+    <tr><td style="padding: 8px 12px;"><a href="#advanced-dynamic-analysis" style="text-decoration: none; color: #c9d1d9;">• Advanced Dynamic Analysis</a></td></tr>
     <tr>
-      <td><a href="#conclusion"><b>Conclusion</b></a></td>
-      <td>—</td>
+      <td style="border-bottom: 1px solid #30363d; padding: 8px 12px;"><a href="#conclusion" style="text-decoration: none; color: #c9d1d9; font-weight: bold;">• Conclusion</a></td>
     </tr>
   </tbody>
 </table>
