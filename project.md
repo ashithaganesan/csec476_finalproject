@@ -1,7 +1,7 @@
 ![A black text on a black background Description automatically generated](./CSEC.476.600_FinalProject_Group4_images/image-001.png)
 
 <div align="center">
-  <font size="10">CSEC.476.600: Reverse Malware Engineering</font><br>
+  <h1>CSEC.476.600: Reverse Malware Engineering</h1><br>
   <font size="8">Spring 2026</font><br>
   <font size="6">Professor: Mohammed Al Ani</font>
 
