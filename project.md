@@ -40,7 +40,7 @@
       <td style="border-bottom: 1px solid #30363d; color: #8b949e; padding: 10px;">Executive Overview</td>
     </tr>
     <tr>
-      <td rowspan="9" align="center" style="border-bottom: 1px solid #30363d; background-color: #0d1117;">
+      <td rowspan="15" align="center" style="border-bottom: 1px solid #30363d; background-color: #0d1117;">
         <a href="#static-analysis" style="text-decoration: none; color: #58a6ff; font-weight: bold;">STATIC ANALYSIS</a>
       </td>
       <td style="padding: 8px 12px;"><a href="#metadata" style="text-decoration: none; color: #c9d1d9;">• Metadata</a></td>
