@@ -11,7 +11,7 @@
 
   <br>
 
-  <h1><strong># Final Project</strong></h1>
+  <h1><strong>Final Project</strong></h1>
   <h2><strong>Malware Analysis Report</strong></h2>
   
   <br>
