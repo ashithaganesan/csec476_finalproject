@@ -98,18 +98,13 @@ This section examines the malware's properties without executing it, beginning w
 ### Metadata
 
 | **Filename** | Group4.pdf |
-| --- | --- |
 | **Description** | PDF document, version 1.7, 0 page(s) |
-| --- | --- |
 | **Size** | 295.2 KiB (302,238 bytes) |
-| --- | --- |
 | **MD5** | 1e0e8268b96c8c95c302b36c317a667e |
-| --- | --- |
 | **SHA256** | f8feee5d6b3d29d4c187b5042642d4990c9541338311526d6767d10586f788b6 |
-| --- | --- |
 
 | **Filename** | Group4.exe |
-| --- | --- |
+| --- |
 | **Description** | PE32+ executable for MS Windows 4.00 (GUI), x86-64, 5 sections |
 | --- | --- |
 | **Size** | 7.5 KiB (7,680 bytes) |
