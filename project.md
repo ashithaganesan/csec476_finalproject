@@ -8,8 +8,8 @@
   <br><br><br><br><br>
 
   <h1><strong>Final Project</strong></h1>
-  <h2><strong>Malware Analysis Report</strong></h2>
-  <h3>Group 4</h3>
+  <font><strong>Malware Analysis Report</strong></font>
+  <font>Group 4</font>
 
 </div>
 
