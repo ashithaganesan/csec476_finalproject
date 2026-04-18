@@ -1,15 +1,15 @@
 ![A black text on a black background Description automatically generated](./CSEC.476.600_FinalProject_Group4_images/image-001.png)
 
-#CSEC.476.600: Reverse Malware Engineering  
-##Spring 2026
+# CSEC.476.600: Reverse Malware Engineering  
+## Spring 2026
 
-###Professor: Mohammed Al Ani
+### Professor: Mohammed Al Ani
 
-#**Final Project**
+**# Final Project**
 
-##Malware Analysis Report
+## Malware Analysis Report
 
-###Group 4
+### Group 4
 
 Ashitha Ganesan: 409001114  
 Alina Biju: 405006685  
