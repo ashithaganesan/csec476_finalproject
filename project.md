@@ -1,32 +1,108 @@
 ![A black text on a black background Description automatically generated](./CSEC.476.600_FinalProject_Group4_images/image-001.png)
 
-<div align="center">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malware Analysis Report Cover Page</title>
+    <style>
+        @page {
+            size: 8.5in 11in;
+            margin: 0; /* Removing default margins to handle absolute positioning */
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            position: relative;
+        }
 
-  <h1><strong>CSEC.476.600: Reverse Malware Engineering</strong></h1>
-  <h2><strong>Spring 2026</strong></h2>
+        /* --- Header: Center Top --- */
+        #header-title {
+            position: absolute;
+            top: 2.2in; /* Positioning the block on the page */
+            left: 0;
+            right: 0;
+            text-align: center;
+            line-height: 1.4;
+        }
+        #course-id {
+            font-size: 16pt;
+            margin-bottom: 0.1in;
+        }
+        #course-name {
+            font-size: 14pt;
+            margin-bottom: 0.1in;
+        }
+        #semester {
+            font-size: 12pt;
+            margin-bottom: 0.1in;
+        }
+        #professor {
+            font-size: 12pt;
+        }
 
-  <hr width="50%">
+        /* --- Middle Section: Bold Titles --- */
+        #project-titles {
+            position: absolute;
+            top: 4.3in; /* Center vertical alignment */
+            left: 0;
+            right: 0;
+            text-align: center;
+        }
+        #final-project {
+            font-size: 18pt;
+            font-weight: bold;
+            margin-bottom: 0.1in;
+        }
+        #malware-report {
+            font-size: 16pt;
+            font-weight: bold;
+            margin-bottom: 0.1in;
+        }
+        #group-num {
+            font-size: 14pt;
+        }
 
-  <h3><strong>Professor: Mohammed Al Ani</strong></h3>
+        /* --- Author Block: Left Bottom --- */
+        #authors-block {
+            position: absolute;
+            bottom: 0.5in; /* 1/2 inch from bottom */
+            left: 1.0in;   /* 1 inch from left */
+            width: 3.0in;   /* Fixed width for text wrap */
+            font-size: 10pt;
+            line-height: 1.5;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
 
-  <br>
+    <div id="header-title">
+        <div id="course-id">CSEC.476.600:</div>
+        <div id="course-name">Reverse Malware Engineering</div>
+        <div id="semester">Spring 2026</div>
+        <div id="professor">Professor: Mohammed Al Ani</div>
+    </div>
 
-  <h1><strong>Final Project</strong></h1>
-  <h2><strong>Malware Analysis Report</strong></h2>
-  
-  <br>
+    <div id="project-titles">
+        <div id="final-project">Final Project</div>
+        <div id="malware-report">Malware Analysis Report</div>
+        <div id="group-num">Group 4</div>
+    </div>
 
-  <h3><strong>Group 4</strong></h3>
+    <div id="authors-block">
+        <strong>Ashitha Ganesan:</strong> 409001114<br>
+        <strong>Alina Biju:</strong> 405006685<br>
+        <strong>Ahmed Abd Elaal:</strong> 764003579<br>
+        <strong>Viha Agrawal:</strong> 377004803<br>
+        <strong>Sufian Ehab Al-Hattab:</strong> 377004971
+    </div>
 
-  <p>
-    <strong>Ashitha Ganesan:</strong> 409001114<br>
-    <strong>Alina Biju:</strong> 405006685<br>
-    <strong>Ahmed Abd Elaal:</strong> 764003579<br>
-    <strong>Viha Agrawal:</strong> 377004803<br>
-    <strong>Sufian Ehab Al-Hattab:</strong> 377004971
-  </p>
-
-</div>
+</body>
+</html>
 
 Table of Contents
 
