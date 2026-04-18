@@ -1,15 +1,15 @@
 ![A black text on a black background Description automatically generated](./CSEC.476.600_FinalProject_Group4_images/image-001.png)
 
-CSEC.476.600: Reverse Malware Engineering  
-Spring 2026
+#CSEC.476.600: Reverse Malware Engineering  
+##Spring 2026
 
-Professor: Mohammed Al Ani
+###Professor: Mohammed Al Ani
 
-**Final Project**
+#**Final Project**
 
-Malware Analysis Report
+##Malware Analysis Report
 
-Group 4
+###Group 4
 
 Ashitha Ganesan: 409001114  
 Alina Biju: 405006685  
@@ -96,15 +96,50 @@ In summary, the sample represents a sophisticated, multi-stage intrusion tool: a
 This section examines the malware's properties without executing it, beginning with metadata and file identification before progressing through signature scanning, string extraction, entropy analysis, and section inspection to build a structural understanding of the sample.
 
 ### Metadata
-<table>
-  <tr><td><b>Filename</b></td><td><b>Group4.pdf</b></td></tr>
-  <tr><td>Description</td><td>PDF document, version 1.7</td></tr>
-  <hr>
-  <tr><td>Size</td><td>295.2 KiB</td></tr>
-  <hr>
-  <tr><td>MD5</td><td>1e0e8268...</td></tr>
-  
+<table style="width: 100%; border-collapse: collapse;">
+  <tr>
+    <td style="border-bottom: 1px solid #30363d; padding: 4px;"><b>Filename</b></td>
+    <td style="border-bottom: 1px solid #30363d; padding: 4px;"><b>Group4.pdf</b></td>
+  </tr>
+  <tr>
+    <td style="border-bottom: 1px solid #30363d; padding: 4px;">Description</td>
+    <td style="border-bottom: 1px solid #30363d; padding: 4px;">PDF document, version 1.7, 0 page(s)</td>
+  </tr>
+  <tr>
+    <td style="border-bottom: 1px solid #30363d; padding: 4px;">Size</td>
+    <td style="border-bottom: 1px solid #30363d; padding: 4px;">295.2 KiB (302,238 bytes)</td>
+  </tr>
+  <tr>
+    <td style="border-bottom: 1px solid #30363d; padding: 4px;">MD5</td>
+    <td style="border-bottom: 1px solid #30363d; padding: 4px;"><code>1e0e8268b96c8c95c302b36c317a667e</code></td>
+  </tr>
+  <tr>
+    <td style="border-bottom: 2px solid #30363d; padding: 4px;">SHA256</td>
+    <td style="border-bottom: 2px solid #30363d; padding: 4px;"><code>f8feee5d6b3d29d4c187b5042642d4990c9541338311526d6767d10586f788b6</code></td>
+  </tr>
+  <tr style="height: 10px;"><td colspan="2"></td></tr>
+  <tr>
+    <td style="border-bottom: 1px solid #30363d; padding: 4px;"><b>Filename</b></td>
+    <td style="border-bottom: 1px solid #30363d; padding: 4px;"><b>Group4.exe</b></td>
+  </tr>
+  <tr>
+    <td style="border-bottom: 1px solid #30363d; padding: 4px;">Description</td>
+    <td style="border-bottom: 1px solid #30363d; padding: 4px;">PE32+ executable for MS Windows 4.00 (GUI), x86-64, 5 sections</td>
+  </tr>
+  <tr>
+    <td style="border-bottom: 1px solid #30363d; padding: 4px;">Size</td>
+    <td style="border-bottom: 1px solid #30363d; padding: 4px;">7.5 KiB (7,680 bytes)</td>
+  </tr>
+  <tr>
+    <td style="border-bottom: 1px solid #30363d; padding: 4px;">MD5</td>
+    <td style="border-bottom: 1px solid #30363d; padding: 4px;"><code>2225079f8bab8281d7675cc62517157e</code></td>
+  </tr>
+  <tr>
+    <td style="border-bottom: 1px solid #30363d; padding: 4px;">SHA256</td>
+    <td style="border-bottom: 1px solid #30363d; padding: 4px;"><code>ca5571e00a41bf4b8dacda8e2429016490c86161d8f933fb894ee43cb79a6652</code></td>
+  </tr>
 </table>
+
 | **Filename** | Group4.pdf |
 | --- | --- |
 | **Description** | PDF document, version 1.7, 0 page(s) |
