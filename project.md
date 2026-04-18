@@ -1,21 +1,32 @@
 ![A black text on a black background Description automatically generated](./CSEC.476.600_FinalProject_Group4_images/image-001.png)
 
-# CSEC.476.600: Reverse Malware Engineering  
-## Spring 2026
+<div align="center">
 
-### Professor: Mohammed Al Ani
+  <h1><strong>CSEC.476.600: Reverse Malware Engineering</strong></h1>
+  <h2><strong>Spring 2026</strong></h2>
 
-**# Final Project**
+  <hr width="50%">
 
-## Malware Analysis Report
+  <h3><strong>Professor: Mohammed Al Ani</strong></h3>
 
-### Group 4
+  <br>
 
-Ashitha Ganesan: 409001114  
-Alina Biju: 405006685  
-Ahmed Abd Elaal: 764003579  
-Viha Agrawal: 377004803  
-Sufian Ehab Al-Hattab: 377004971
+  <h1><strong># Final Project</strong></h1>
+  <h2><strong>Malware Analysis Report</strong></h2>
+  
+  <br>
+
+  <h3><strong>Group 4</strong></h3>
+
+  <p>
+    <strong>Ashitha Ganesan:</strong> 409001114<br>
+    <strong>Alina Biju:</strong> 405006685<br>
+    <strong>Ahmed Abd Elaal:</strong> 764003579<br>
+    <strong>Viha Agrawal:</strong> 377004803<br>
+    <strong>Sufian Ehab Al-Hattab:</strong> 377004971
+  </p>
+
+</div>
 
 Table of Contents
 
@@ -73,7 +84,6 @@ Advanced Dynamic Analysis 38
 
 Conclusion 40
 
-References 41
 
 # Technical Summary
 
