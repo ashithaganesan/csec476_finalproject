@@ -1,12 +1,9 @@
 ![A black text on a black background Description automatically generated](./CSEC.476.600_FinalProject_Group4_images/image-001.png)
+
 <div align="center">
-  <img src="YOUR_LOGO_URL_HERE" alt="RIT Dubai Logo" width="400">
-
-  <br><br><br><br>
-
-  <font size="5">CSEC.476.600: Reverse Malware Engineering</font><br>
-  <font size="4">Spring 2026</font><br>
-  <font size="4">Professor: Mohammed Al Ani</font>
+  <font size="10">CSEC.476.600: Reverse Malware Engineering</font><br>
+  <font size="8">Spring 2026</font><br>
+  <font size="6">Professor: Mohammed Al Ani</font>
 
   <br><br><br><br><br>
 
