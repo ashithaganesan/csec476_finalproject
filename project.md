@@ -22,6 +22,7 @@
   <strong>Viha Agrawal:</strong> 377004803<br>
   <strong>Sufian Ehab Al-Hattab:</strong> 377004971
 </div>
+<br><br><br>
 
 <table style="width: 100%; border-collapse: collapse; font-family: sans-serif;">
   <thead>
@@ -67,6 +68,7 @@
     </tr>
   </tbody>
 </table>
+<br><br>
 
 # Technical Summary
 
