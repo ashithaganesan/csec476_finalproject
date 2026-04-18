@@ -24,6 +24,7 @@
 </div>
 <br><br><br>
 
+<h1> Table of Contents </h1>
 <table style="width: 100%; border-collapse: collapse; font-family: sans-serif;">
   <thead>
     <tr style="background-color: #161b22; border-bottom: 2px solid #30363d;">
