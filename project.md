@@ -23,62 +23,45 @@
   <strong>Sufian Ehab Al-Hattab:</strong> 377004971
 </div>
 
-Table of Contents
-
-Technical Summary 3
-
-Technical Summary 3
-
-Static Analysis 5
-
-Metadata 5
-
-Basic Static Analysis 5
-
-PDF 5
-
-Executable 10
-
-1\. Identifying File Type 10
-
-2\. Local anti-malware scanning 12
-
-3\. Fingerprinting 13
-
-4\. Online malware scanning 14
-
-5\. Extracting Strings 16
-
-6\. Packing 17
-
-7\. Extracting Sections 19
-
-8\. Extracting DLLs 20
-
-9\. Additional Information 21
-
-Advanced Static Analysis 23
-
-Dynamic Analysis 26
-
-Basic Dynamic Analysis 26
-
-Process Explorer 27
-
-Procmon 29
-
-FakeNet-NG, Process Explorer and TCPView 33
-
-Regshot 36
-
-Wireshark 36
-
-Process Hacker 37
-
-Advanced Dynamic Analysis 38
-
-Conclusion 40
-
+<table style="width: 100%;">
+  <thead>
+    <tr>
+      <th align="left">Section</th>
+      <th align="left">Sub-Section</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="#technical-summary"><b>Technical Summary</b></a></td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <td rowspan="9"><a href="#static-analysis"><b>Static Analysis</b></a></td>
+      <td><a href="#metadata">Metadata</a></td>
+    </tr>
+    <tr><td><a href="#basic-static-analysis">Basic Static Analysis</a></td></tr>
+    <tr><td>&nbsp;&nbsp;↳ <a href="#pdf">PDF</a></td></tr>
+    <tr><td>&nbsp;&nbsp;↳ <a href="#executable">Executable</a></td></tr>
+    <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• <a href="#identifying-file-type">Identifying File Type</a></td></tr>
+    <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• <a href="#local-anti-malware-scanning">Local Anti-malware Scanning</a></td></tr>
+    <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• <a href="#fingerprinting">Fingerprinting</a></td></tr>
+    <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• <a href="#extracting-strings">Extracting Strings</a></td></tr>
+    <tr><td><a href="#advanced-static-analysis">Advanced Static Analysis</a></td></tr>
+    <tr>
+      <td rowspan="7"><a href="#dynamic-analysis"><b>Dynamic Analysis</b></a></td>
+      <td><a href="#basic-dynamic-analysis">Basic Dynamic Analysis</a></td>
+    </tr>
+    <tr><td>&nbsp;&nbsp;↳ <a href="#process-explorer">Process Explorer</a></td></tr>
+    <tr><td>&nbsp;&nbsp;↳ <a href="#procmon">Procmon</a></td></tr>
+    <tr><td>&nbsp;&nbsp;↳ <a href="#wireshark">Wireshark</a></td></tr>
+    <tr><td>&nbsp;&nbsp;↳ <a href="#regshot">Regshot</a></td></tr>
+    <tr><td><a href="#advanced-dynamic-analysis">Advanced Dynamic Analysis</a></td></tr>
+    <tr>
+      <td><a href="#conclusion"><b>Conclusion</b></a></td>
+      <td>—</td>
+    </tr>
+  </tbody>
+</table>
 
 # Technical Summary
 
